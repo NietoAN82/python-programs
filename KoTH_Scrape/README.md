@@ -4,7 +4,7 @@ King of The Hill Website Scrape
 
 ## Description
 
-This python program imports a list of all King of the Hill episodes and uses it to web scrape all wiki links for each episode to gather information that is eventually extracted into a .csv file.
+This python program imports a list of all King of the Hill episode titles and uses it to web scrape all wiki links for each episode to gather information that is eventually extracted into a .csv file.
 
 ## Getting Started
 
