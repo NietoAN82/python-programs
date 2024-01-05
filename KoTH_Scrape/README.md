@@ -1,62 +1,39 @@
 # Project Title
 
-Simple overview of use/purpose.
+King of The Hill Website Scrape
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This python program imports a list of all King of the Hill episodes and uses it to web scrape all wiki links for each episode to gather information that is eventually extracted into a .csv file.
 
 ## Getting Started
 
 ### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+Libraries:
+- urlopen from urllib.request: This library helps us open URLs and fetch HTML content from web pages.
+- BeautifulSoup from bs4: BeautifulSoup for parsing HTML, making it easier to navigate and extract data.
 
 ### Installing
+Project was created in PyCharm
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+Delete or move the koth_data.csv file if you wish to see the csv file generated from scratch after running.
+Make sure Episode Title.txt is in the same folder as the KoTH_Scrape folder.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+Running the program should create the csv file.
 
 ## Authors
 
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Alfredo Nieto
 
 ## Version History
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
 Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [https://medium.com/@nitin.data1997/web-scraping-imdb-data-with-python-and-beautifulsoup-f1d69812d3b]
+* [https://kingofthehill.fandom.com/wiki/Main_Page]
